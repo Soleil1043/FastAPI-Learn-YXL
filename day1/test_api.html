@@ -1,0 +1,15 @@
+### 测试根路径
+GET http://localhost:8000/
+
+### 测试带参数的路由
+GET http://localhost:8000/items/42
+Accept: application/json
+
+### 测试带查询参数
+GET http://localhost:8000/items/42?q=testquery
+
+### 测试用户接口
+GET http://localhost:8000/users/100?name=John&age=30
+
+### 测试计算器
+GET http://localhost:8000/calculate/add?a=15&b=25
