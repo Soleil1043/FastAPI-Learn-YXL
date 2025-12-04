@@ -1,0 +1,27 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=PyCharm
+
+### post_item
+POST http://localhost:8000/items/
+Content-Type: application/json
+
+{
+  "name": "笔记本电脑",
+  "description": "高性能游戏本",
+  "price": 7999.99,
+  "tax": 799.99
+}
+
+
+
+### update_item
+PUT http://localhost:8000/items/123
+Content-Type: application/json
+
+{
+  "name": "笔记本电脑",
+  "description": "高性能游戏本",
+  "price": 7999.99,
+  "tax": 799.99
+}

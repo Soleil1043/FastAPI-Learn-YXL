@@ -1,0 +1,2 @@
+# 测试物品查询
+GET http://localhost:8000/item/666?price=6&type=vegetable
